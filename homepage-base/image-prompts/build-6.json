@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1024",
+  "quality": "high",
+  "prompt": "Bold editorial graphic illustration. Strictly black and white only: pure white (#FFFFFF) background, solid black ink, no gray tones, no color, no gradients, no shadows, no texture. Thick confident uniform black outlines with a few solid black fills, flat, iconic, poster-like, generous white margins, centered. No words, no letters, no numbers, no people, no hands, no robots, no brains. Subject: a team fix shipped with an eval plan: a wrench crossed over a clipboard checklist with bold checkmarks on the left, and a thick arrow pointing right to a neat row of five small isometric cubes, the first two drawn solid black."
+}

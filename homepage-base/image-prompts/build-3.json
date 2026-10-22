@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1024",
+  "quality": "high",
+  "prompt": "Bold editorial graphic illustration. Strictly black and white only: pure white (#FFFFFF) background, solid black ink, no gray tones, no color, no gradients, no shadows, no texture. Thick confident uniform black outlines with a few solid black fills, flat, iconic, poster-like, generous white margins, centered. No words, no letters, no numbers, no people, no hands, no robots, no brains. Subject: a ranked map of where AI should go: three stacked rows of small rounded tiles; the top row has three tiles drawn solid black, the middle row five tiles in black outline, the bottom row four tiles drawn with dashed outlines; one four-point sparkle star beside the top row."
+}

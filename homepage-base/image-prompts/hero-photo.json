@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1280",
+  "quality": "high",
+  "prompt": "Black-and-white editorial still photograph, high contrast, fine film grain. Top-down view of a single printed sheet of matte white paper lying on a seamless white paper backdrop, slightly rotated. Hard morning sunlight from the upper left casts a crisp, deep diagonal window-frame shadow across the backdrop and one corner of the sheet. Printed on the sheet in bold modern sans-serif, near-black ink, generous margins: \"Morning briefing \u00b7 Tue\" as a small header with a rule under it, then very large \"3 meetings need prep\", then very large \"2 decisions waiting on you\". Nothing else in the frame: no people, no hands, no desk, no props, no logos. Monochrome only."
+}
