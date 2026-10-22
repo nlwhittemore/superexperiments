@@ -1,0 +1,8 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "images/edits",
+  "size": "1024x1024",
+  "quality": "high",
+  "style_reference": "icons.png",
+  "prompt": "Use the attached image only as a STYLE reference. Match its exact drawing style: bold, simple, flat black icons on a pure white background, thick uniform strokes, a few solid black fills, no gray, no color, no gradients, no shadows. Draw ONE new icon (not a grid, not a copy of the reference subjects), centered with very generous white margins, simple enough to read clearly at 24 pixels. No words, no letters, no numbers, no people. Subject: a cube with a four-point sparkle star above it."
+}

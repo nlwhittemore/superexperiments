@@ -1,0 +1,8 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "images/edits",
+  "size": "1536x1024",
+  "quality": "high",
+  "style_reference": "scene.png",
+  "prompt": "Use the attached image only as a STYLE reference. Match its exact drawing style: a small isometric line illustration, uniform crisp black outlines, some parts filled solid black, flat black and white on a pure white background, airy and simple, no gray, no color, no gradients, no shadows, no texture. Draw ONE new scene (do not copy the reference subject), centered with generous white margins. No words, no letters, no numbers, no people. Subject: a neat stack of monthly worksheet sheets fanned out, the top sheet with a checklist, next to a small desk calendar."
+}
