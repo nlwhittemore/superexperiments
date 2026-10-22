@@ -1,0 +1,35 @@
+/* 5 · Night: today's dark besuper.ai, grown up. Near-black, a serif display,
+   the current brand teal, builds lit by one slice of light. */
+
+html:has(.dir-night) {
+  --background: #0e0f0f;
+  --foreground: #efede6;
+}
+
+.dir-ed.dir-night {
+  --bg: #0e0f0f;
+  --bg-2: #151717;
+  --card: #1a1c1c;
+  --fg: #efede6;
+  --fg-2: #c9c6bc;
+  --mute: #8e8b82;
+  --line: #2a2c2c;
+  --accent: #5bc4c4;
+  --accent-hover: #79d3d3;
+  --accent-fg: #0e0f0f;
+  --mark: transparent;
+  --mark-fg: #5bc4c4;
+  --mark-style: italic;
+  --band: #050606;
+  --band-2: #141616;
+  --band-line: #2a2c2c;
+  --band-mute: #9a978e;
+  --band-fg: #efede6;
+  --feature: #5bc4c4;
+  --feature-fg: #0e0f0f;
+  --font-display: var(--font-ed-serif), ui-serif, Georgia, serif;
+  --display-weight: 400;
+  --display-tracking: -0.025em;
+  --display-leading: 0.98;
+  --display-size: clamp(3rem, 6.2vw, 5.9rem);
+}

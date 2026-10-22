@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down editorial still photograph, bright and airy. A single sheet of matte white paper lies flat on a seamless pure white paper backdrop, slightly rotated. Sunlight passes through an unseen glass prism from the upper left and casts a vivid, crisp rainbow spectrum band and a few soft prismatic flares diagonally across the backdrop and one corner of the sheet, leaving the printed text clear and readable.\nThe sheet is a morning briefing, an automated daily summary built by a marketing director in AI & Agents Professional. It shows only the artifact's own content, never a caption or description of what it is, printed in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy. Visible text, spelled exactly: \"Morning briefing \u00b7 Tue\"; \"3 meetings need prep\"; \"2 decisions waiting on you\". The number 2 is set in bold.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. The prism itself is out of frame. Clean, bright, high-end.",
+  "file": "public/directions/prism/briefing.webp"
+}

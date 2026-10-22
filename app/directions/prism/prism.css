@@ -1,0 +1,39 @@
+/* 4 · Prism: white and ink. The only color is light split through a prism,
+   in the photographs, the sparks and one underline. */
+
+html:has(.dir-prism) {
+  --background: #ffffff;
+  --foreground: #111114;
+}
+
+.dir-doc.dir-prism {
+  --spectrum: linear-gradient(90deg, #ff5f6d, #ffb347 22%, #f6e05e 40%, #5ee08f 58%, #4fb8ff 76%, #9b7bff);
+  --fg: #111114;
+  --fg-2: #45454c;
+  --mute: #75757d;
+  --line: #e7e7ea;
+  --grey: #f6f6f7;
+  --accent: #111114;
+  --accent-hover: #2c2c31;
+  --accent-fg: #ffffff;
+  --accent-50: #f6f6f7;
+  --feature: #111114;
+  --feature-fg: #ffffff;
+  --spark-fill: var(--spectrum);
+  --display-weight: 600;
+}
+
+.dir-prism .doc-em {
+  color: var(--fg);
+  background: var(--spectrum) left 92% / 100% 0.09em no-repeat;
+  padding-bottom: 0.04em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* The finder card wears a thin spectrum edge */
+.dir-prism .doc-finder-card {
+  border-top: 0;
+  background: var(--spectrum) top / 100% 3px no-repeat, var(--bg);
+  padding-top: 3px;
+}

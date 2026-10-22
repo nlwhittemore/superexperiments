@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { headlines } from "@/content/homepage";
 import { Logo } from "@/components/site/logo";
 
 export const metadata: Metadata = {
@@ -11,30 +10,48 @@ export const metadata: Metadata = {
 const DIRECTIONS = [
   {
     id: "paper",
-    letter: "A",
-    name: "Paper & Sun",
-    headline: headlines[0],
+    n: 1,
+    name: "Paper",
+    headline: "Learn AI by building with it.",
     summary:
-      "Atlas's cleanness, evolved. Warm paper, ink and one sun yellow. Every build is shown as a printed page photographed in real light.",
-    system: "Hanken Grotesk · paper #F4F2EA · ink #141414 · sun #FFD23F",
+      "Round 1's Paper & Sun with the yellow gone. Warm paper, ink and one tomato red. Every build is a printed page photographed in hard morning light.",
+    system: "Editorial template · Hanken Grotesk · paper #F4F2EA · ink #141414 · tomato #F2552C",
   },
   {
     id: "studio",
-    letter: "B",
+    n: 2,
     name: "Studio",
-    headline: headlines[1],
+    headline: "AI is already part of your job. Get good at it.",
     summary:
-      "A Swiss document. White, ink and electric cobalt, numbered section rails, programs as a side-by-side spec sheet, builds as pristine product shots.",
-    system: "Geist + Geist Mono · white · ink #0E0E11 · cobalt #2D4BFF",
+      "The Swiss document, no longer a wireframe. Cobalt line illustrations for each level and section, builds drawn as annotated blueprints, and the logo's spark as a glyph.",
+    system: "Document template · Geist + Geist Mono · white · ink #0E0E11 · cobalt #2D4BFF",
   },
   {
-    id: "riso",
-    letter: "C",
-    name: "Riso",
-    headline: headlines[2],
+    id: "mono",
+    n: 3,
+    name: "Mono",
+    headline: "Get good at AI.",
     summary:
-      "The bold swing. Newsprint, poster-wide type and two riso inks. Every build is a risograph print, so the whole site reads as one illustration system.",
-    system: "Archivo Expanded + Space Mono · newsprint · blue #0078BF · pink #FF48B0",
+      "Paper's layout in black and white only. No accent color at all: knockout blocks, deep window shadows, gallery-print photography.",
+    system: "Editorial template · Inter Tight · #F5F5F3 · ink #0A0A0A",
+  },
+  {
+    id: "prism",
+    n: 4,
+    name: "Prism",
+    headline: "Learn AI by building with it.",
+    summary:
+      "Studio's document in white and ink, where the only color is light split through a prism, in the photographs, the sparks and one underline.",
+    system: "Document template · Host Grotesk + IBM Plex Mono · white · ink #111114 · spectrum",
+  },
+  {
+    id: "night",
+    n: 5,
+    name: "Night",
+    headline: "AI is already part of your job. Get good at it.",
+    summary:
+      "Today's dark besuper.ai, grown up. Near-black, a serif display, the current brand teal, and builds lit by a single slice of light.",
+    system: "Editorial template · Instrument Serif + Sans · #0E0F0F · teal #5BC4C4",
   },
 ];
 
@@ -44,29 +61,29 @@ export default function Directions() {
       <div className="mx-auto max-w-[1240px] px-5 py-14 sm:px-10 sm:py-20">
         <Logo width={170} />
         <h1 className="mt-12 max-w-3xl text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.02] font-semibold tracking-[-0.035em]">
-          Three directions for the new besuper.ai homepage
+          Homepage directions, round 2
         </h1>
         <p className="mt-5 max-w-2xl text-[17px] text-[#55554f]">
-          Same copy, same content, same finder logic. Each direction changes only color, type, layout and imagery, and each
-          tries a different headline from the copy doc. Every image was generated with GPT Image 2.5 and is labeled as an
-          example until real learner builds replace it.
+          Built from 1 (Paper) and 2 (Studio), with three more at the same level of simplicity. No yellow anywhere. Same
+          copy, sections and finder throughout: each direction is a theme on one of two templates. Every image was made
+          with GPT Image 2.5 and is labeled as an example until real learner builds replace it.
         </p>
-        <ul className="mt-14 grid gap-10 lg:grid-cols-3 lg:gap-6">
+        <ul className="mt-14 grid gap-x-6 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
           {DIRECTIONS.map((d) => (
             <li key={d.id}>
               <Link href={`/directions/${d.id}`} className="group block">
                 <div className="overflow-hidden rounded-[6px] border border-black/10 bg-white">
                   <Image
                     src={`/directions/thumbs/${d.id}.webp`}
-                    alt={`Direction ${d.letter}, ${d.name}: homepage hero`}
-                    width={1440}
-                    height={1000}
-                    sizes="(min-width: 1024px) 400px, 100vw"
+                    alt={`Direction ${d.n}, ${d.name}: homepage hero`}
+                    width={960}
+                    height={667}
+                    sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw"
                     className="w-full transition-transform duration-500 group-hover:scale-[1.02]"
                   />
                 </div>
                 <div className="mt-5 flex items-baseline gap-3">
-                  <span className="font-mono text-[13px] text-[#77776f]">{d.letter}</span>
+                  <span className="font-mono text-[13px] text-[#77776f]">{d.n}</span>
                   <h2 className="text-[24px] font-semibold tracking-[-0.02em] group-hover:underline">{d.name}</h2>
                 </div>
                 <p className="mt-2 text-[15px] font-medium">“{d.headline}”</p>
@@ -76,6 +93,13 @@ export default function Directions() {
             </li>
           ))}
         </ul>
+        <p className="mt-16 border-t border-black/10 pt-6 text-[14px] text-[#77776f]">
+          Set aside from round 1:{" "}
+          <Link href="/directions/riso" className="underline underline-offset-4 hover:text-[#111]">
+            Riso
+          </Link>
+          .
+        </p>
       </div>
     </main>
   );

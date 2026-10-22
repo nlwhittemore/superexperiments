@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { PlateId } from "@/content/homepage";
 
-export type Direction = "paper" | "studio" | "riso";
+export type Direction = "paper" | "studio" | "mono" | "prism" | "night" | "riso";
 
 const ALT: Record<PlateId, string> = {
   briefing: "Example build: a morning briefing listing 3 meetings that need prep and 2 decisions waiting",
