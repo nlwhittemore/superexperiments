@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A pristine, high-fidelity software interface screenshot of a company admin view for a training cohort, a seat list with a cohort start date, shown perfectly front-on and centered on a large flat cool light grey (#EFF0F2) background with even margins on all sides.\nInterface: white panels, near-black (#111114) text in a clean neo-grotesque typeface, cool grey 1px hairlines, small uppercase monospace labels, one electric cobalt (#2D4BFF) highlight on the \"Add a seat\" button. Visible text, spelled exactly: \"Cohort starts Mon, Nov 2\"; \"Seats \u00b7 24 of 25 assigned\"; \"Add a seat\". Add realistic, believable secondary details in small grey text so it reads as a real working tool.\nA very soft, subtle shadow under the panel. No device frame, no browser chrome, no people, no hands, no perspective tilt, no gradients, no glow, no logos, no robots.",
+  "file": "public/directions/studio/team-admin.webp"
+}

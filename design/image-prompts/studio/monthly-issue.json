@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A pristine, high-fidelity software interface screenshot of a monthly lab worksheet, the first page of a monthly issue for subscribers, shown perfectly front-on and centered on a large flat pale cobalt (#E6EAFF) background with even margins on all sides.\nInterface: white panels, near-black (#111114) text in a clean neo-grotesque typeface, cool grey 1px hairlines, small uppercase monospace labels, one electric cobalt (#2D4BFF) highlight on the label \"November lab\". Visible text, spelled exactly: \"November lab\"; \"Build your own AI benchmark\"; \"Worksheet \u00b7 prompts \u00b7 project\". Add realistic, believable secondary details in small grey text so it reads as a real working tool.\nA very soft, subtle shadow under the panel. No device frame, no browser chrome, no people, no hands, no perspective tilt, no gradients, no glow, no logos, no robots.",
+  "file": "public/directions/studio/monthly-issue.webp"
+}

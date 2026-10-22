@@ -1,0 +1,121 @@
+"use client";
+
+import { finder } from "@/content/homepage";
+import { useFinder } from "@/lib/site/finder";
+import { Plate } from "@/components/site/plate";
+
+const KEYS = ["A", "B", "C", "D"];
+
+export function StudioFinder() {
+  const f = useFinder();
+  const q = finder.questions[Math.min(f.step, finder.questions.length - 1)];
+
+  return (
+    <div className="overflow-hidden rounded-[6px] border border-(--line) bg-(--white) shadow-[0_1px_2px_rgba(0,0,0,0.04),0_12px_40px_-20px_rgba(14,14,17,0.18)]">
+      <div className="flex items-center justify-between border-b border-(--line) bg-(--grey) px-5 py-3">
+        <span className="st-label text-(--mute)">Program finder</span>
+        <span className="st-label text-(--mute)">
+          {f.result ? "Result" : `${String(f.step + 1).padStart(2, "0")} / ${String(f.total).padStart(2, "0")}`}
+        </span>
+      </div>
+      <div className="grid md:grid-cols-[15rem_1fr]">
+        <ol className="hidden border-r border-(--line) p-5 md:block" aria-label="Progress">
+          {finder.questions.map((question, i) => {
+            const answer = question.options.find((o) => o.id === f.selected(i));
+            const active = i === f.step && !f.result;
+            return (
+              <li key={question.id} className="border-b border-(--line) py-4 last:border-0">
+                <div className={`st-label ${active ? "text-(--cobalt)" : "text-(--mute)"}`}>
+                  {String(i + 1).padStart(2, "0")} {["Who", "Usage", "Goal"][i]}
+                </div>
+                <div className={`mt-1 text-[14px] ${answer && i < f.step ? "text-(--ink)" : "text-(--mute)"}`}>
+                  {answer && i < f.step ? answer.label : "—"}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+
+        <div className="min-h-[26rem] p-6 sm:p-8" aria-live="polite">
+          {!f.result ? (
+            <>
+              <h3 className="text-[26px] font-semibold tracking-[-0.03em] sm:text-[30px]">{q.title}</h3>
+              <div className="mt-6 grid">
+                {q.options.map((o, i) => (
+                  <button
+                    key={o.id}
+                    type="button"
+                    onClick={() => f.choose(o.id)}
+                    className="group flex items-center gap-4 border-t border-(--line) py-4 text-left text-[17px] last:border-b hover:text-(--cobalt)"
+                  >
+                    <span className="st-mono grid size-7 shrink-0 place-items-center rounded-[4px] border border-(--line) text-[12px] text-(--mute) group-hover:border-(--cobalt) group-hover:bg-(--cobalt) group-hover:text-white">
+                      {KEYS[i]}
+                    </span>
+                    <span className="flex-1">{o.label}</span>
+                    <span className="st-arrow text-(--mute) group-hover:text-(--cobalt)">→</span>
+                  </button>
+                ))}
+              </div>
+              {f.step > 0 && (
+                <button type="button" onClick={f.back} className="st-label mt-6 text-(--mute) hover:text-(--ink)">
+                  ← Back
+                </button>
+              )}
+            </>
+          ) : (
+            <Result f={f} />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Result({ f }: { f: ReturnType<typeof useFinder> }) {
+  const r = f.result!;
+  const facts = r.program.facts;
+  return (
+    <div className="grid gap-8 lg:grid-cols-[1fr_15rem]">
+      <div>
+        <div className="st-label text-(--cobalt)">{finder.resultLabel}</div>
+        <h3 className="mt-3 text-[32px] leading-[1.05] font-semibold tracking-[-0.035em] sm:text-[40px]">
+          {r.program.name}
+          {r.as && <span className="block text-(--mute)">{r.as}</span>}
+        </h3>
+        <p className="mt-4 text-[17px] text-(--ink-2)">{r.program.line}</p>
+        <dl className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-[4px] border border-(--line) bg-(--line)">
+          {facts.map((fact) => (
+            <div key={fact} className="bg-(--white) p-3">
+              <dd className="text-[13px] leading-snug">{fact}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-6 text-[15px]">
+          <span className="st-label mr-2 text-(--mute)">Why this</span>
+          {r.why}
+        </p>
+        <div className="mt-7 flex flex-wrap gap-2">
+          <a href={r.program.buttons[0].href} className="st-btn st-btn-cobalt">
+            See the program
+          </a>
+          <a href={r.freeStart.href} className="st-btn st-btn-line">
+            Start free with {r.freeStart.name}
+          </a>
+        </div>
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-(--line) pt-4 text-[14px]">
+          <span>
+            <span className="st-label mr-2 text-(--mute)">After that</span>
+            {r.after}
+          </span>
+          <button type="button" onClick={f.reset} className="st-label text-(--cobalt) hover:underline">
+            {finder.startOver}
+          </button>
+        </div>
+      </div>
+      <div className="hidden lg:block">
+        <Plate direction="studio" id={r.program.plate} className="w-full rounded-[4px]" sizes="240px" />
+        <p className="st-label mt-2 text-(--mute)">Example build</p>
+      </div>
+    </div>
+  );
+}

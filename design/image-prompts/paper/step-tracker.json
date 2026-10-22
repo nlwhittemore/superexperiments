@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down editorial still photograph. A single sheet of matte uncoated off-white paper lies flat on a seamless sun-yellow (#FFD23F) paper backdrop, slightly rotated (about 4 degrees). Hard late-morning sunlight from the upper left casts a crisp, soft-edged diagonal window-light shadow across one corner of the frame.\nPrinted on the sheet in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy: an agent team step tracker, a twelve-step progress list, built in Claw Camp. Visible text, spelled exactly: \"Step 1 \u00b7 first agent\"; \"Step 6 \u00b7 memory\"; \"Step 12 \u00b7 team\". Small secondary details in grey are fine but keep the three lines dominant. One small sun-yellow (#FFD23F) printed highlight on the current step \"Step 6 \u00b7 memory\".\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Calm, minimal, high-end print photography with natural paper texture.",
+  "file": "public/directions/paper/step-tracker.webp"
+}

@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down editorial still photograph. A single sheet of matte uncoated off-white paper lies flat on a seamless deep ink black (#161616) paper backdrop, slightly rotated (about 4 degrees). Hard late-morning sunlight from the upper left casts a crisp, soft-edged diagonal window-light shadow across one corner of the frame.\nPrinted on the sheet in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy: an AI opportunity map, a ranked table of use cases sorted into groups, built in AI & Agents Advanced. Visible text, spelled exactly: \"Build now \u00b7 3\"; \"Build after governance \u00b7 5\"; \"Parked \u00b7 4\". Small secondary details in grey are fine but keep the three lines dominant. One small sun-yellow (#FFD23F) printed highlight on the \"Build now \u00b7 3\" group.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Calm, minimal, high-end print photography with natural paper texture.",
+  "file": "public/directions/paper/opportunity-map.webp"
+}

@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down editorial still photograph. A single sheet of matte uncoated off-white paper lies flat on a seamless sun-yellow (#FFD23F) paper backdrop, slightly rotated (about 4 degrees). Hard late-morning sunlight from the upper left casts a crisp, soft-edged diagonal window-light shadow across one corner of the frame.\nPrinted on the sheet in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy: a company admin view for a training cohort, a seat list with a cohort start date. Visible text, spelled exactly: \"Cohort starts Mon, Nov 2\"; \"Seats \u00b7 24 of 25 assigned\"; \"Add a seat\". Small secondary details in grey are fine but keep the three lines dominant. One small sun-yellow (#FFD23F) printed highlight on the \"Add a seat\" button.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Calm, minimal, high-end print photography with natural paper texture.",
+  "file": "public/directions/paper/team-admin.webp"
+}
