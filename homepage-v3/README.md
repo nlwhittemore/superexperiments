@@ -41,3 +41,14 @@ The page's props are unchanged except for a new one, `illustrations` (`On` by de
 ## Rebuild
 
 `python3 homepage-v3/build.py` rebuilds the page from the untouched original plus `images/`. Every edit is an exact, checked replacement, so it fails loudly if the base changes. Prompts for every image are in `image-prompts/`.
+
+## Published copy
+
+The page is also published as a private claude.ai artifact. That host blocks `blob:` scripts, which the self-unpacking file relies on, so `flatten.py` makes a plain single-page copy:
+
+- Scripts are written inline.
+- Fonts and images become data URIs.
+- React loads from unpkg.
+- The `;` in each image data URI is written as a CSS escape, because the page runtime splits style attributes on `;`.
+
+`python3 homepage-v3/flatten.py OUT.html` regenerates it.
