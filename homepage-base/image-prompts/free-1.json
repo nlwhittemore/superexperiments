@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Bold editorial graphic illustration. Strictly black and white only: pure white (#FFFFFF) background, solid black ink, no gray tones, no color, no gradients, no shadows, no texture. Thick confident uniform black outlines with a few solid black fills, flat, iconic, poster-like, generous white margins, centered. No words, no letters, no numbers, no people, no hands, no robots, no brains. Subject: ten small round badges arranged in a gentle arc like a string of medals, the first few drawn solid black and the rest in outline, under a burst of fireworks made of four-point sparkle stars."
+}

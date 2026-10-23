@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Fine-line isometric technical illustration in electric cobalt blue (#2D4BFF) ink on a pure white (#FFFFFF) background. Uniform crisp 2px lines, a few flat cobalt fills and very light cobalt tints (#E6EAFF), precise like an engineering drawing crossed with Swiss graphic design. Two to four small four-point sparkle glints (like a twinkle star) in cobalt as accents. Lots of white space, centered composition with generous margins. No text, no letters, no numbers, no people, no robots, no brains, no photography, no gradients, no shadows.\nSubject: one larger central isometric module (the chief of staff) connected by clean routing lines to six smaller modules arranged around it, each with a tiny distinct glyph on top (magnifier, bar chart, compass, pen, speech bubble, gear); small dots travel along the lines.",
+  "file": "public/directions/studio/ill-professional.webp"
+}

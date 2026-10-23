@@ -1,0 +1,11 @@
+/* 2 · Studio: white, ink, electric cobalt. The document defaults, plus
+   cobalt line illustrations and the logo's spark as a glyph. */
+
+html:has(.dir-studio) {
+  --background: #ffffff;
+  --foreground: #0e0e11;
+}
+
+.dir-studio {
+  font-feature-settings: "ss01", "cv11";
+}

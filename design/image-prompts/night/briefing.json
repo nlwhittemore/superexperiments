@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Editorial still photograph, dark and dramatic. A single sheet of matte white paper lies flat on a seamless near-black paper backdrop, slightly rotated, lit by a single narrow slice of warm light from the left that falls across the sheet; the rest of the frame falls into deep shadow.\nThe sheet is a morning briefing, an automated daily summary built by a marketing director in AI & Agents Professional. It shows only the artifact's own content, never a caption or description of what it is, printed in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy. Visible text, spelled exactly: \"Morning briefing \u00b7 Tue\"; \"3 meetings need prep\"; \"2 decisions waiting on you\". One small printed teal (#5BC4C4) highlight on the number 2.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Moody, minimal, high-end print photography.",
+  "file": "public/directions/night/briefing.webp"
+}

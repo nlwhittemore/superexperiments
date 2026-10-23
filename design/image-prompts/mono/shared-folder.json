@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down black-and-white editorial still photograph, high contrast, fine film grain. A single sheet of matte white paper lies flat on a seamless bright white paper backdrop, slightly rotated. Hard sunlight from the upper left casts a crisp, deep diagonal window shadow across part of the frame.\nThe sheet is a shared team agent context folder, a file list of plain text files the whole team's agent reads, built in The Multiplayer AI Sprint. It shows only the artifact's own content, never a caption or description of what it is, printed in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy. Visible text, spelled exactly: \"team-context/\"; \"how-we-price.md\"; \"client-list.md\". One small solid black printed block behind the folder name \"team-context/\", its text knocked out in white.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Monochrome only, gallery-quality print photography.",
+  "file": "public/directions/mono/shared-folder.webp"
+}

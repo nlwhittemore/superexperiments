@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A two-color risograph print on off-white uncoated paper, printed in riso blue (#0078BF) and fluorescent pink (#FF48B0) inks only, with visible grain, coarse halftone dots and slight misregistration where the two inks overlap. The print is a bold, simplified graphic diagram of an agent team step tracker, a twelve-step progress list, built in Claw Camp, drawn as flat geometric shapes, thick rules and boxes like a screen-printed poster, NOT a realistic software screenshot.\nText in heavy grotesque capitals and lowercase printed in blue ink, spelled exactly: \"Step 1 \u00b7 first agent\"; \"Step 6 \u00b7 memory\"; \"Step 12 \u00b7 team\". Fluorescent pink fills mark the current step \"Step 6 \u00b7 memory\".\nOnly the listed text plus a few small plausible labels; no slogans, taglines or titles describing the print. Generous paper margins around the print. No people, no hands, no robots, no brains, no 3D, no photography, no logos.",
+  "file": "public/directions/riso/step-tracker.webp"
+}

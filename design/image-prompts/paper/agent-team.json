@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Top-down editorial still photograph. A single sheet of matte uncoated off-white paper lies flat on a seamless warm stone grey (#E4DED2) paper backdrop, slightly rotated (about 4 degrees). Hard late-morning sunlight from the upper left casts a crisp, soft-edged diagonal window-light shadow across one corner of the frame.\nThe sheet is an agent team dashboard, a roster of AI agents coordinated by a Chief of Staff agent, built in AI & Agents Professional. It shows only the artifact's own content, never a caption or description of what it is, printed in clean modern sans-serif typography, near-black ink, generous margins and a clear hierarchy. Visible text, spelled exactly: \"Chief of Staff\"; \"Research Analyst \u00b7 ran 4 tasks\"; \"Operations Assistant \u00b7 1 waiting\". One small tomato red-orange (#F2552C) printed highlight on the \"1 waiting\" status.\nNothing else in the frame: no hands, no people, no desk, no pens, no plants, no devices, no props, no logos. Calm, minimal, high-end print photography with natural paper texture.",
+  "file": "public/directions/paper/agent-team.webp"
+}

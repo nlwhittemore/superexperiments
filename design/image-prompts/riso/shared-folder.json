@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A two-color risograph print on off-white uncoated paper, printed in riso blue (#0078BF) and fluorescent pink (#FF48B0) inks only, with visible grain, coarse halftone dots and slight misregistration where the two inks overlap. The print is a bold, simplified graphic diagram of a shared team agent context folder, a file list of plain text files the whole team's agent reads, built in The Multiplayer AI Sprint, drawn as flat geometric shapes, thick rules and boxes like a screen-printed poster, NOT a realistic software screenshot.\nText in heavy grotesque capitals and lowercase printed in blue ink, spelled exactly: \"team-context/\"; \"how-we-price.md\"; \"client-list.md\". Fluorescent pink fills mark the folder name \"team-context/\".\nOnly the listed text plus a few small plausible labels; no slogans, taglines or titles describing the print. Generous paper margins around the print. No people, no hands, no robots, no brains, no 3D, no photography, no logos.",
+  "file": "public/directions/riso/shared-folder.webp"
+}

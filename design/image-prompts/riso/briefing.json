@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A two-color risograph print on off-white uncoated paper, printed in riso blue (#0078BF) and fluorescent pink (#FF48B0) inks only, with visible grain, coarse halftone dots and slight misregistration where the two inks overlap. The print is a bold, simplified graphic diagram of a morning briefing, an automated daily summary built by a marketing director in AI & Agents Professional, drawn as flat geometric shapes, thick rules and boxes like a screen-printed poster, NOT a realistic software screenshot.\nText in heavy grotesque capitals and lowercase printed in blue ink, spelled exactly: \"Morning briefing \u00b7 Tue\"; \"3 meetings need prep\"; \"2 decisions waiting on you\". Fluorescent pink fills mark the number 2.\nGenerous paper margins around the print. No people, no hands, no robots, no brains, no 3D, no photography, no logos.",
+  "file": "public/directions/riso/briefing.webp"
+}

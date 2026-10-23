@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Bold editorial graphic illustration. Strictly black and white only: pure white (#FFFFFF) background, solid black ink, no gray tones, no color, no gradients, no shadows, no texture. Thick confident uniform black outlines with a few solid black fills, flat, iconic, poster-like, generous white margins, centered. No words, no letters, no numbers, no people, no hands, no robots, no brains. Subject: across the top, three simple objects side by side with space between them: a calendar page, an envelope, and a short checklist. From the bottom of each, a clean line curves down and they merge into one small rounded square containing a four-point sparkle star (the agent). From that square a single straight line drops vertically and runs off the bottom edge of the frame, centered. Leave the lower third of the frame mostly empty except for that line."
+}

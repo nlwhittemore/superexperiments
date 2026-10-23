@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "A pristine, high-fidelity software interface screenshot of an operations agent test report, an evaluation dashboard of test cases, built in AI & Agents Advanced, shown perfectly front-on and centered on a deep electric cobalt (#2D4BFF) field with generous even margins on all sides.\nInterface: white panels, near-black (#111114) text in a clean neo-grotesque typeface, cool grey 1px hairlines, small uppercase monospace labels, one cobalt highlight on the \"Needs review 3\" figure. Visible text, spelled exactly: \"Golden set \u00b7 40 cases\"; \"Passed 37\"; \"Needs review 3\". Add realistic secondary details in small grey text so it reads as a real working tool.\nAround the panel, on the cobalt field: fine thin white technical drawing marks like a designer's annotated blueprint (construction lines, dimension arrows, small registration circles and crosshairs, no words), plus three or four small white four-point sparkle glints. Very soft shadow under the panel. No device frame, no browser chrome, no people, no hands, no perspective tilt, no gradients, no logos.",
+  "file": "public/directions/studio/eval-report.webp"
+}

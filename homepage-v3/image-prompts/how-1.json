@@ -1,0 +1,6 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1024",
+  "quality": "high",
+  "prompt": "Minimal bold black icon illustration. Strictly black and white: pure white (#FFFFFF) background, solid black ink, no gray, no color, no gradients, no shadows. Thick uniform strokes, a few solid fills, simple and iconic, centered with very generous white margins. No words, no letters, no numbers, no people. Subject: an open briefcase with a few of your own papers and a small bar chart sheet sticking out of it."
+}

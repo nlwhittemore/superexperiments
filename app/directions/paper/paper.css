@@ -1,0 +1,6 @@
+/* 1 · Paper: warm paper, ink, one tomato red. The editorial defaults. */
+
+html:has(.dir-paper) {
+  --background: #f4f2ea;
+  --foreground: #141414;
+}

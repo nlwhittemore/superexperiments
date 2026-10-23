@@ -131,6 +131,15 @@
   }
 }
 
+/* Spark glyph (components/site/spark.tsx): the logo's four-point star */
+.site-spark {
+  display: inline-block;
+  flex-shrink: 0;
+  background: var(--spark-fill, currentColor);
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 0C12.7 6.4 17.6 11.3 24 12 17.6 12.7 12.7 17.6 12 24 11.3 17.6 6.4 12.7 0 12 6.4 11.3 11.3 6.4 12 0Z'/></svg>") center / contain no-repeat;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 0C12.7 6.4 17.6 11.3 24 12 17.6 12.7 12.7 17.6 12 24 11.3 17.6 6.4 12.7 0 12 6.4 11.3 11.3 6.4 12 0Z'/></svg>") center / contain no-repeat;
+}
+
 /* Reports print light: ink on paper, regardless of the dark screen theme */
 @media print {
   :root {
